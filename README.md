@@ -34,5 +34,5 @@ It sorts your existing dom by a given dom selector
 ```
 
 ```js
-domSort('#after .search-results li', ['.stars']);
+domSort('.search-results li', ['.stars']);
 ```
