@@ -1,4 +1,4 @@
-# dom streams
+# sort dom on the fly
 It sorts your existing dom by a given dom selector
 
 ```
