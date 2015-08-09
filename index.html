@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" data-ng-app="App">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }}</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="public/components/bootstrap/dist/css/bootstrap.css">
+    <!-- endinject -->
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+<body data-ng-controller="IndexController">
+
+
+<div class="row">
+    <div id="before" class="col-md-6" data-ng-include="'app/templates/npmjs.html'">
+    </div>
+    <div id="after" class="col-md-6" data-ng-include="'app/templates/npmjs.html'" data-onload="sort()">
+    </div>
+</div>
+
+<!-- bower:js -->
+<script src="public/components/jquery/dist/jquery.js"></script>
+<script src="public/components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="public/components/angular/angular.js"></script>
+<!-- endinject -->
+<!-- inject:js -->
+<script src="app/app.js"></script>
+<script src="index.js"></script>
+<!-- endinject -->
+</body>
+</html>
+
+
+

@@ -1,0 +1,31 @@
+{
+  "name": "dom-streams",
+  "main": "index.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tobiasoberrauch/dom-streams",
+  "authors": [
+    "Tobias Oberrauch <tobias.oberrauch@grolba.com>"
+  ],
+  "license": "LGPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.3"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
